@@ -18,7 +18,8 @@ Generates Cardano Stake Pool Performance Data as csv. Csv file is output as “/
 
 
 ### Headers & Sample Rows:
-view,epoch_no,block_count,stake_amount
+view  |  epoch_no   |   block_count |  stake_amount
+
 pool103gv6hc8ux9tvu7597f4806fayzeyvrn2pp338ndztgl6jg29mf,210,,228768130669
 pool104fdj0xdhr8cqedwn0lf8dk206ryn62kn8mtyym020nuxthjgvj,210,,1440874302339
 pool104re5tajgh4mpp7c744khap56lf609cfjlna5ysjkum8qn8fel9,210,,322138901748
