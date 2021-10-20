@@ -14,18 +14,19 @@ Thanks to the Cardano Guild Operators for streamlining the setup process.
 —-
 
 ## Pool Performance
-Generates Cardano Stake Pool Performance Data as csv. Csv file is output as “/tmp/pool_epoch_performance{minute the output was created}.csv”
+Generates Cardano Stake Pool Performance Data as csv. Csv file is output as “/tmp/pool_epoch_performance{monthdayyearhourminute}.csv”
 
 
 ### Headers & Sample Rows:
-view  |  epoch_no   |   block_count |  stake_amount
+view  |  epoch_no   |   block_count |  stake_amount  |  delegators   |   relays
 
-pool103gv6hc8ux9tvu7597f4806fayzeyvrn2pp338ndztgl6jg29mf,210,,228768130669
-pool104fdj0xdhr8cqedwn0lf8dk206ryn62kn8mtyym020nuxthjgvj,210,,1440874302339
-pool104re5tajgh4mpp7c744khap56lf609cfjlna5ysjkum8qn8fel9,210,,322138901748
-pool108zdflss3ayqlm5c7vr6mtqj2uwl99vk28ur8dv4zswdzt6yauc,210,,15256980865905
-pool10capak8jppvj8h46e35xdth6h22pahtr3lcgscrpa06jzv0xn8w,210,,5527457577928
-pool10dwjth7esfw5gc036vu6l6csnvn6elqax0d3kh8t65rxyewk2g3,210,,3300000000000
-pool10efuydxjnasr0309lqklmj9xahupdnzqd59r5dqjeh4twz06tr0,210,,9270972439711
-pool10eltx2wej46e62ulmwzm35xfu0azu47yvpjper7gwhncqe74vg6,210,,76005541636
-pool10gllgflzl3ngg0fj2xas9hfww25zxn2fdwtc0gd44am92pdlr7p,210,,339658592230
+pool1zz7x8ergn02chznayj9fjds2gk5q6prmpdr49faspd65kzqsrjs,253,34,35681950699020,511,1
+pool1zz7x8ergn02chznayj9fjds2gk5q6prmpdr49faspd65kzqsrjs,258,35,30089256698224,560,1
+pool1zz7x8ergn02chznayj9fjds2gk5q6prmpdr49faspd65kzqsrjs,280,26,35342112505275,824,1
+pool1zz7x8ergn02chznayj9fjds2gk5q6prmpdr49faspd65kzqsrjs,281,26,29243378075941,823,1
+pool1zz7x8ergn02chznayj9fjds2gk5q6prmpdr49faspd65kzqsrjs,284,29,29413429180771,848,1
+pool1zz7x8ergn02chznayj9fjds2gk5q6prmpdr49faspd65kzqsrjs,283,36,30042778914254,857,1
+pool1zz7x8ergn02chznayj9fjds2gk5q6prmpdr49faspd65kzqsrjs,279,34,35583006510005,800,1
+pool1zz7x8ergn02chznayj9fjds2gk5q6prmpdr49faspd65kzqsrjs,282,24,28815742494774,839,1
+pool1zz7x8ergn02chznayj9fjds2gk5q6prmpdr49faspd65kzqsrjs,285,32,28461215459589,862,1
+pool1zz7x8ergn02chznayj9fjds2gk5q6prmpdr49faspd65kzqsrjs,278,41,34814394554460,741,1
